@@ -1,0 +1,42 @@
+{
+  "name": "follows-order",
+  "version": "1.0.0",
+  "description": "Checks that specific array elements or string characters appear only in a certain order.",
+  "keywords": [
+    "array",
+    "elements",
+    "order",
+    "ordered",
+    "sequence",
+    "sort",
+    "sorted",
+    "check",
+    "validate",
+    "assert",
+    "verify"
+  ],
+  "author": "John Lamansky",
+  "license": "MIT",
+  "homepage": "https://github.com/lamansky/follows-order",
+  "repository": "lamansky/follows-order",
+  "main": "index.js",
+  "engines": {
+    "node": ">=4.0.0"
+  },
+  "dependencies": {
+    "sequential-indexof": "^1.0.0"
+  },
+  "devDependencies": {
+    "eslint-config-lamansky": "^1.0.0",
+    "mocha": "^3.2.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "eslintConfig": {
+    "extends": "lamansky",
+    "env": {
+      "mocha": true
+    }
+  }
+}
